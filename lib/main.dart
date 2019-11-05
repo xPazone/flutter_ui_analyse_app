@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_analyse_app/screens/datenschutz_screen.dart';
+import 'package:flutter_ui_analyse_app/screens/listemusik_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: DatenschutzScreen(),
+      home: ListeMusik(),
     );
   }
 }
